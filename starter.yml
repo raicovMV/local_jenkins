@@ -1,0 +1,8 @@
+---
+execution:
+- executor: jmeter
+  scenario:
+    script: CD_Jenkins_AddProductToWishList.jmx
+    hold-for: 5m
+    locations:
+      us-east-1: 1
