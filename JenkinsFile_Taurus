@@ -5,7 +5,7 @@ pipeline {
            steps {
                script {
 				echo 'Starting test with Taurus'
-				bzt "C:\\MR\\apaceJmeter\\apache-jmeter-5.3\\bin\\JMeter_Jenkins\\CI_Taurus_Pipeline\\scenario_jmx\\CD_Jenkins_AddProductToWishList.jmx -report -o settings.artifacts-dir=artifacts"
+				bzt "C:\\MR\\apaceJmeter\\apache-jmeter-5.3\\bin\\JMeter_Jenkins\\CI_Taurus_Pipeline\\CD_Jenkins_AddProductToWishList.jmx -report -o settings.artifacts-dir=artifacts"
 				echo 'Test completed'
                }
            }
